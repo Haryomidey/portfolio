@@ -1,0 +1,355 @@
+@media screen and (max-width: 330px) {
+    .m-linear .n-web {
+        font-size: 1rem;
+        display: block;
+        position: relative;
+        height: 100px;
+        line-height: 100px;
+    }
+
+    .m-linear .n-web .slider {
+        color: blue;
+        margin-left: 10px;
+        animation: slider 8s linear infinite;
+        margin-top: -165px;
+        display: block;
+        text-align: center;
+    }
+
+    @keyframes slider {
+        0% {
+            margin-top: -165px;
+        }
+
+        0% {
+            margin-top: -65px;
+        }
+
+        30% {
+            margin-top: -65px;
+        }
+
+        35% {
+            margin-top: -165px;
+        }
+
+        65% {
+            margin-top: -165px;
+        }
+
+        70% {
+            margin-top: -265px;
+        }
+
+        100% {
+            margin-top: -265px;
+        }
+    }
+}
+
+@media screen and (max-width: 418px) {
+    .m-linear .n-web {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    /* header {
+        padding-right: -10px;
+    }  */
+    header nav .menu-icon {
+        transform: translateX(20px);
+    }
+}
+
+@media screen and (max-width: 990px) {
+    header h1 {
+        z-index: 100;
+        cursor: pointer;
+    }
+
+    header nav .menu-icon {
+        width: 45px;
+        height: 45px;
+        margin-right: 20px;
+        z-index: 111;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    header nav .nav-ul {
+        position: absolute;
+        top: -500px;
+        display: grid;
+        left: 0;
+        padding: 80px 0 0 30px;
+        width: 100%;
+        height: 500px;
+        background: rgb(10, 10, 10);
+        transition: top 0.8s;
+        z-index: 11;
+    }
+
+    .header nav .nav-ul li {
+        border-bottom: 27px solid white;
+    }
+
+    .nav-active {
+        top: 0 !important;
+        transition: top 0.6s;
+    }
+
+    .sub-btn {
+        background: black;
+        padding: 6px 15px;
+        border-radius: 20px;
+        border: 2px solid var(--blue);
+        transition: all 0.7s !important;
+    }
+
+    .sub-btn:hover {
+        background: white;
+    }
+
+}
+
+@media screen and (min-width: 550px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (min-width: 630px) {
+    body {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (min-width: 610px) {
+    aside .container .box.box2 .details .continue {
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    section {
+        min-height: 60vh;
+    }
+
+}
+
+@media screen and (min-width: 820px) {
+    section .projects ul {
+        width: 600px;
+        min-height: 400px;
+        gap: 15px;
+    }
+
+    section .projects ul li::after {
+        top: 30px;
+    }
+
+}
+
+@media screen and (min-width: 880px) {
+    main {
+        height: 70vh;
+    }
+
+    main .container {
+        margin-top: -90px;
+        margin-left: 40px;
+    }
+
+    header h1 {
+        margin-left: 60px;
+        font-size: 3rem;
+    }
+
+    main p {
+        font-size: 1.5rem;
+    }
+
+    main h3 {
+        font-size: 1.6rem;
+    }
+
+    main h1 {
+        font-size: 2.9rem;
+    }
+
+    main .input-email {
+        width: 400px;
+        height: 50px;
+        border-radius: 20px;
+        margin-top: 18px;
+    }
+
+    main .input-email input {
+        width: 75%;
+        font-size: 1.3rem;
+    }
+
+    main .input-email button {
+        height: 90%;
+        width: 25%;
+    }
+
+    section {
+        min-height: 80vh;
+    }
+
+    section h1 {
+        font-size: 2.6rem;
+        margin-top: 50px;
+    }
+
+    section .my-image {
+        width: 150px;
+        background-color: black;
+        height: 150px;
+        margin: 20px auto;
+        border-radius: 50%;
+    }
+
+    section .my-image img {
+        border-radius: 50%;
+    }
+
+
+    section button {
+        width: 120px;
+        height: 40px;
+        font-size: 1.1rem;
+    }
+
+    aside {
+        padding-top: 50px;
+    }
+
+    aside h1 {
+        font-size: 2.6rem;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        align-items: center;
+    }
+
+    footer .name {
+        color: white;
+        grid-column: span 4;
+        padding: 30px;
+        margin-left: 20px;
+        display: block;
+    }
+
+    footer .container {
+        grid-column: 5 / 9;
+    }
+
+    footer .footer-last-p {
+        grid-column: 3 / 6;
+    }
+    footer .footer-last-p .i{
+        font-size: 18px;
+    }
+    footer .container form input,
+    textarea {
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media screen and (min-width: 965px) {
+    body {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width: 1040px) {
+    aside .container .box3 h4 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1050px) {
+    body {
+        font-size: 18px;
+    }
+
+    main {
+        height: 100vh;
+    }
+
+    section h1 {
+        display: none;
+    }
+
+    section .hide-h1 {
+        display: block;
+        text-align: left;
+    }
+
+    section .container {
+        display: flex;
+        align-items: center;
+    }
+
+    section .my-image {
+        flex-basis: 40%;
+        height: 400px;
+        width: 450px;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-top: 70px;
+    }
+
+    section .my-image img {
+        border-radius: 10px;
+    }
+
+    section .section-2 {
+        flex-basis: 50%;
+        margin-right: 30px;
+    }
+
+    section button {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    section {
+        height: 100vh;
+    }
+
+    section .my-image {
+        height: 500px;
+    }
+
+    section .my-image img {
+        border-radius: 10px;
+    }
+
+    footer .container form {
+        height: 300px;
+    }
+
+    footer .container form input {
+        height: 50px;
+        font-size: 20px;
+    }
+    textarea{
+        height: 90px;
+        font-size: 20px;
+    }
+}
