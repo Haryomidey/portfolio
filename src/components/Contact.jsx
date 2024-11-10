@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 
 const Contact = () => {
     const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+    const [loading, setLoading] = useState(false);
 
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.id]: e.target.value });
@@ -35,6 +36,7 @@ const Contact = () => {
         if (!validateForm()) return;
 
         try {
+            setLoading(true);
             const response = await fetch('http://localhost:5000/send-email', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
@@ -50,6 +52,8 @@ const Contact = () => {
         } catch (error) {
             console.error('Error:', error);
             toast.error('There was an error sending your message');
+        } finally{
+            setLoading(false);
         }
     };
 
@@ -107,8 +111,10 @@ const Contact = () => {
                     </div>
                     <button
                         onClick={handleSubmit}
-                        className='border-2 border-primary text-white bg-primary mt-4 px-10 py-3 rounded-lg hover:bg-[#00acb5a2] transition-all ease duration-300'>
-                        Send message
+                        className={`border-2 border-primary text-white bg-primary mt-4 px-10 py-3 rounded-lg hover:bg-[#00acb5a2] transition-all ease duration-300 ${loading && 'cursor-not-allowed opacity-70'}`}
+                        disabled={loading}    
+                    >
+                        {loading ? 'Sending...' : 'Send message'}
                     </button>
                 </motion.div>
             </div>
