@@ -7,8 +7,8 @@ import { motion } from 'framer-motion';
 const testimonialsData = [
     {
         id: 1,
-        name: "Prince (The Familiar guy)",
-        content: "Working with Ayomide has been a great experience. He is very professional and always delivers quality work. He was the missing element at newkindred",
+        name: "Tolani Jaywon",
+        content: "Working with Ayomide has been a great experience. He is very professional and always delivers quality work. I highly recommend him.",
     },
     {
         id: 2,
@@ -22,7 +22,7 @@ const testimonialsData = [
     },
     {
         id: 4,
-        name: "Dayo UI/UX",
+        name: "Joseph Bunny",
         content: "Ayomide makes building web applications seamless, The speed at which he create scalable, pixel perfect and responsive website, needs to be studied. He is a master of his craft.",
     },
 ];
