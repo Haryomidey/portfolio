@@ -24,7 +24,7 @@ const Footer = ({scrollToSection}) => {
             </div>
 
                 <div className='flex flex-col gap-4'>
-                    <div className='flex gap-3'>
+                    <div className='flex gap-3 text-2xl'>
                         <Link to='https://x.com/Ayotech11'>
                             <FaTwitter className='text-gray-400 hover:text-white' />
                         </Link>
