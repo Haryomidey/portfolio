@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FiArrowUpRight } from 'react-icons/fi';
 import Storeify from '../assets/images/project-1.png';
 import DeeplordConsults from '../assets/images/project-2.png';
-import Mahasad from '../assets/images/project-3.png';
+import Bookie from '../assets/images/bookie.png';
 import Newkindred from '../assets/images/project-4.png';
 import PonkeGold from '../assets/images/project-5.png';
 import ViddaCollection from '../assets/images/project-6.png';
@@ -25,10 +25,10 @@ const ProjectsData = [
     },
     {
         id: 3,
-        name: "Mahasad",
-        desc: "Mahasad is a VTU website that helps users find and purchase data, airtimes etc.",
-        image: Mahasad,
-        link: "http://mahasad.com/"
+        name: "Bookie",
+        desc: "Bookie is an event management and ticket booking website, that allows users to create an event and share it with others.",
+        image: Bookie,
+        link: "http://bookie-six.vercel.app/"
     },
     {
         id: 4,
