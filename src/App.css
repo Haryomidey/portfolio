@@ -11,6 +11,7 @@ body{
   width: 100%;
   color: white;
   background: #191c20;
+  overflow-x: hidden;
 }
 
 button, input, textarea, select{

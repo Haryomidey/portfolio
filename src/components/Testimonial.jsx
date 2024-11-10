@@ -1,7 +1,8 @@
 import React from 'react';
 import { FaUserCircle } from 'react-icons/fa';
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
-import BgImage from '../assets/images/doodle-big.png'
+import BgImage from '../assets/images/doodle-big.png';
+import { motion } from 'framer-motion';
 
 const testimonialsData = [
     {
@@ -31,10 +32,14 @@ const Testimonial = () => {
         <div className="py-20 sm:py-40 px-5 sm:px-10 lg:px-20 text-center" style={{backgroundImage: `url(${BgImage})`}}>
             <h2 className="text-3xl sm:text-4xl font-semibold mb-10">Testimonials</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-                {testimonialsData.map((testimonial) => (
-                    <div 
-                        key={testimonial.id} 
+                {testimonialsData.map((testimonial, index) => (
+                    <motion.div
+                        key={testimonial.id}
                         className="relative gradient rounded-xl shadow-lg p-6 flex flex-col items-center"
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ delay: index * 0.2, duration: 0.5 }}
+                        viewport={{ once: true }}
                     >
                         <FaUserCircle className="text-6xl text-white mb-4" />
                         <div className="text-white mb-4 text-center relative">
@@ -43,7 +48,7 @@ const Testimonial = () => {
                             <p className='absolute -bottom-4 right-0'><FaQuoteRight /></p>
                         </div>
                         <span className="text-lg font-semibold text-white mt-auto">{testimonial.name}</span>
-                    </div>
+                    </motion.div>
                 ))}
             </div>
         </div>

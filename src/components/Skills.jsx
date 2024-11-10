@@ -1,5 +1,6 @@
 import React from 'react'
 import { SiJavascript, SiTypescript, SiReact, SiNextdotjs, SiNodedotjs, SiExpress, SiSocketdotio, SiMongodb, SiPostgresql, SiTailwindcss, SiGit, SiFigma } from 'react-icons/si'
+import { motion } from 'framer-motion'
 
 const Skills = () => {
     const skills = [
@@ -23,12 +24,19 @@ const Skills = () => {
             <p className='text-sm sm:text-base mt-4 text-[#c5c5c5]'>Skills, Technologies I am really good at:</p>
             <div className='mt-16 grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-8 justify-items-center'>
                 {skills.map((skill, index) => (
-                    <div key={index} className='flex flex-col items-center'>
+                    <motion.div
+                        key={index}
+                        className='flex flex-col items-center'
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ delay: index * 0.1, duration: 0.5 }}
+                        viewport={{ once: true }}
+                    >
                         <div className='text-5xl'>
                             {skill.icon}
                         </div>
                         <span className='mt-2 text-white text-sm'>{skill.name}</span>
-                    </div>
+                    </motion.div>
                 ))}
             </div>
         </div>
