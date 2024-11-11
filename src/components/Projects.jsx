@@ -81,7 +81,7 @@ const Projects = () => {
                 {ProjectsData.slice(0, visibleProjects).map((project) => (
                     <div 
                         key={project.id} 
-                        className="rounded-3xl overflow-hidden shadow-lg bg-[#333] hover:scale-105 transition-transform duration-300"
+                        className="rounded-xl sm:rounded-3xl overflow-hidden shadow-lg bg-[#333] hover:scale-105 transition-transform duration-300"
                     >
                         <div className='relative'>
                             <img 
