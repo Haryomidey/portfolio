@@ -19,5 +19,5 @@ button, input, textarea, select{
 }
 
 .gradient{
-  background: linear-gradient(to bottom, #00adb5, black);
+  background: linear-gradient(to bottom, #00adb5, #070707b6);
 }
