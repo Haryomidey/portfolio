@@ -22,7 +22,6 @@ const Header = ({ scrollToSection }) => {
             <div className='w-full h-full flex items-center justify-between px-5 sm:px-10 lg:px-20'>
                 <h1>Ayotech</h1>
 
-                {/* Desktop Menu */}
                 <ul className='hidden lg:flex items-center gap-10'>
                     <li onClick={() => scrollToSection('hero')} className="cursor-pointer">Home</li>
                     <li onClick={() => scrollToSection('about')} className="cursor-pointer">About</li>

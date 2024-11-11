@@ -58,7 +58,7 @@ const Contact = () => {
     };
 
     return (
-        <div className='mt-10 sm:mt-20 px-5 pt-10 sm:pt-20 sm:px-10 lg:px-40 pb-20'>
+        <div className='mt-10 sm:mt-20 px-5 pt-10 sm:pt-20 sm:px-10 lg:px-40 pb-20 overflow-x-hidden'>
             <div className='w-full grid sm:grid-cols-2 gap-16'>
                 <motion.div
                     initial={{ x: '-100%', opacity: 0 }}
