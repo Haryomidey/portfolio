@@ -21,7 +21,7 @@ const Skills = () => {
     return (
         <div className='mt-20 sm:mt-40 bg-[#030712e0] text-center py-20 px-5 sm:px-10 lg:px-40'>
             <h2 className='text-3xl sm:text-4xl font-semibold text-white'>My Skills</h2>
-            <p className='text-sm sm:text-base mt-4 text-[#c5c5c5]'>Skills, Technologies I am really good at:</p>
+            <p className='text-sm sm:text-base mt-4 text-[#c5c5c5]'>Technologies I am really good at:</p>
             <div className='mt-16 grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-8 justify-items-center'>
                 {skills.map((skill, index) => (
                     <motion.div
