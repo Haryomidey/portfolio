@@ -20,7 +20,7 @@ const Header = ({ scrollToSection }) => {
     return (
         <header className='w-full h-[80px] border-b border-[#5c5b5b] fixed top-0 left-0 bg-[#191c20] z-50'>
             <div className='w-full h-full flex items-center justify-between px-5 sm:px-10 lg:px-20'>
-                <h1>Ayotech</h1>
+                <h1 className='font-semibold text-xl sm:text-2xl'>Ayo<span className='text-primary'>tech</span></h1>
 
                 <ul className='hidden lg:flex items-center gap-10'>
                     <li onClick={() => scrollToSection('hero')} className="cursor-pointer">Home</li>
