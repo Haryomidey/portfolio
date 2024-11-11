@@ -11,10 +11,10 @@ import { Link } from 'react-router-dom';
 const ProjectsData = [
     {
         id: 1,
-        name: "Storeify",
-        desc: "Storeify is an agency that helps businesses create and manage their online stores.",
-        image: Storeify,
-        link: "https://storeify-delta.vercel.app/   "
+        name: "NewKindred",
+        desc: "NewKindred is an agency web application that helps businesses create and manage their online presence.",
+        image: Newkindred,
+        link: "https://newkindred.com/"
     },
     {
         id: 2,
@@ -32,10 +32,10 @@ const ProjectsData = [
     },
     {
         id: 4,
-        name: "NewKindred",
-        desc: "NewKindred is an agency web application that helps businesses create and manage their online presence.",
-        image: Newkindred,
-        link: "https://newkindred.com/"
+        name: "Storeify",
+        desc: "Storeify is an agency that helps businesses create and manage their online stores.",
+        image: Storeify,
+        link: "https://storeify-delta.vercel.app/   "
     },
     {
         id: 5,

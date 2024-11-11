@@ -22,7 +22,7 @@ const testimonialsData = [
     },
     {
         id: 4,
-        name: "Joseph Bunny",
+        name: "Joseph Williams",
         content: "Ayomide makes building web applications seamless, The speed at which he create scalable, pixel perfect and responsive website, needs to be studied. He is a master of his craft.",
     },
 ];
