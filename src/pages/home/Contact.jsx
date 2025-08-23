@@ -29,19 +29,19 @@ const Contact = () => {
                             >
                                 <Mail size={18} /> Email
                             </a>
-                            <a
+                            {/* <a
                                 href="https://www.linkedin.com/in/ayomide-oladiipo"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-gray-300 font-medium hover:bg-gray-50 transition"
                             >
                                 <Linkedin size={18} /> LinkedIn
-                            </a>
+                            </a> */}
                             <a
                                 href="https://github.com/Haryomidey"
                                 target="_blank"
                                 rel="noreferrer"
-                                className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-gray-300 font-medium hover:bg-gray-50 transition"
+                                className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-gray-300 font-medium hover:bg-primary transition"
                             >
                                 <Github size={18} /> GitHub
                             </a>
