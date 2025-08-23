@@ -25,23 +25,23 @@ const Contact = () => {
                         <div className="flex flex-wrap justify-center md:justify-end gap-3">
                             <a
                                 href="mailto:oladiipoayomide2021@gmail.com"
-                                className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-white font-medium hover:bg-primary/90 transition"
+                                className="inline-flex items-center gap-2 bg-primary text-white px-4 py-2 rounded-lg shadow hover:bg-accent transition"
                             >
                                 <Mail size={18} /> Email
                             </a>
-                            {/* <a
+                            <a
                                 href="https://www.linkedin.com/in/ayomide-oladiipo"
                                 target="_blank"
                                 rel="noreferrer"
-                                className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-gray-300 font-medium hover:bg-gray-50 transition"
+                                className="inline-flex items-center gap-2 border border-primary text-primary px-4 py-2 rounded-lg hover:bg-primary hover:text-white transition"
                             >
                                 <Linkedin size={18} /> LinkedIn
-                            </a> */}
+                            </a>
                             <a
                                 href="https://github.com/Haryomidey"
                                 target="_blank"
                                 rel="noreferrer"
-                                className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-gray-300 font-medium hover:bg-primary transition"
+                                className="inline-flex items-center gap-2 border border-secondary text-white px-4 py-2 rounded-lg hover:border-primary hover:text-primary transition"
                             >
                                 <Github size={18} /> GitHub
                             </a>
