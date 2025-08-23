@@ -40,7 +40,7 @@ const Experience = () => {
                                     {job.role}{" "}
                                     <span className="text-primary">@ {job.company}</span>
                                 </h3>
-                                <span className="text-sm text-secondary">{job.period}</span>
+                                <span className="text-sm text-gray-50">{job.period}</span>
                             </div>
                             <ul className="list-disc ml-6 mt-3 text-sm space-y-2 text-white">
                                 {job.bullets.map((b, i) => (

@@ -18,7 +18,7 @@ const writings = [
         title: "Fictional Writing",
         description:
             "I create short stories and narratives that mix suspense, creativity, and human emotion. My fictional pieces often explore what-ifs, untold perspectives, and the realities that live between imagination and truth.",
-        color: "secondary"
+        color: "white"
     }
 ];
 
@@ -31,7 +31,7 @@ const Writing = () => {
                     Beyond building software, I am passionate about writing. My work spans{" "}
                     <span className="text-primary font-medium">technical guides</span> that help developers grow,{" "}
                     <span className="text-accent font-medium">historical essays</span> that uncover overlooked truths, 
-                    and <span className="text-secondary font-medium">fictional storytelling</span> that sparks imagination. 
+                    and <span className="text-gray-100 font-medium">fictional storytelling</span> that sparks imagination. 
                     Writing allows me to connect with people, educate, and inspire in ways code alone cannot.
                 </p>
                 <div className="mt-8 grid md:grid-cols-3 gap-6">

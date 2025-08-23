@@ -42,7 +42,7 @@ const projects = [
 
 const Projects = () => {
     return (
-        <section id="projects" className="py-12 bg-background">
+        <section id="projects" className="py-12 bg-dark">
             <Container>
                 <SectionHeading id="projects">Projects</SectionHeading>
                 <div className="mt-8 grid md:grid-cols-2 gap-6">
@@ -53,7 +53,7 @@ const Projects = () => {
                         >
                             <div className="flex items-start justify-between">
                                 <h3 className="text-lg font-semibold text-primary">{p.title}</h3>
-                                <span className="text-xs text-secondary">{p.year}</span>
+                                <span className="text-xs text-gray-50">{p.year}</span>
                             </div>
                             <p className="mt-3 text-sm text-white">{p.description}</p>
                             <div className="mt-4 flex flex-wrap gap-2 text-xs">
@@ -76,7 +76,7 @@ const Projects = () => {
                                     Visit <ArrowRight size={16} />
                                 </a>
                             ) : (
-                                <span className="mt-4 inline-flex items-center gap-1 text-sm text-gray-500">
+                                <span className="mt-4 inline-flex items-center gap-1 text-sm text-gray-50">
                                     Private / No link
                                 </span>
                             )}
