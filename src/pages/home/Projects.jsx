@@ -32,6 +32,13 @@ const projects = [
         year: "2025"
     },
     {
+        title: "SurePlay",
+        link: 'http://sure-play-jet.vercel.app/',
+        description: "A betting platform for player to player betting, featuring real-time odds and secure transactions.",
+        stack: ["React.js", "Express.js", "MongoDB"],
+        year: "2025"
+    },
+    {
         title: "Barty",
         link: null,
         description: "Trade-by-barter platform. Built full stack with a custom matching algorithm for user needs/offers.",
