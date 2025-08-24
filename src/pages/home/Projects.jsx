@@ -25,13 +25,6 @@ const projects = [
         year: "2025"
     },
     {
-        title: "Igamia",
-        link: null,
-        description: "Livestreaming, gaming, and coin-mining platform. Collaborated on backend using Nest.js.",
-        stack: ["Nest.js", "PostgreSQL"],
-        year: "2025"
-    },
-    {
         title: "SurePlay",
         link: 'http://sure-play-jet.vercel.app/',
         description: "A betting platform for player to player betting, featuring real-time odds and secure transactions.",
@@ -39,12 +32,26 @@ const projects = [
         year: "2025"
     },
     {
+        title: "Gistoria",
+        link: null,
+        description: "A blog platform for sharing and discovering stories.",
+        stack: ["React", "Express.js", "MongoDB"],
+        year: "2024"
+    },
+    {
         title: "Barty",
         link: null,
         description: "Trade-by-barter platform. Built full stack with a custom matching algorithm for user needs/offers.",
         stack: ["React", "Node.js", "Algorithm Design"],
         year: "2024"
-    }
+    },
+    {
+        title: "Igamia",
+        link: null,
+        description: "Livestreaming, gaming, and coin-mining platform. Collaborated on backend using Nest.js.",
+        stack: ["Nest.js", "MogngoDB"],
+        year: "2025"
+    },
 ];
 
 const Projects = () => {
