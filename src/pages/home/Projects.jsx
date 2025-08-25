@@ -33,7 +33,7 @@ const projects = [
     },
     {
         title: "Gistoria",
-        link: null,
+        link: 'https://gistoria.link',
         description: "A blog platform for sharing and discovering stories.",
         stack: ["React", "Express.js", "MongoDB"],
         year: "2024"
