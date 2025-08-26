@@ -4,6 +4,13 @@ import SectionHeading from "./SectionHeading";
 
 const projects = [
     {
+        title: "React Typeflux",
+        link: "https://www.npmjs.com/package/react-typeflux",
+        description: "A lightweight rich text editor and viewer for React, published as an npm package. Built with Vite, TailwindCSS, and React.",
+        stack: ["React", "Vite", "TailwindCSS", "NPM"],
+        year: "2025"
+    },
+    {
         title: "Klitogram",
         link: "https://klitogram.com",
         description: "A content-sharing and social platform enabling users to connect and create content.",
@@ -26,14 +33,14 @@ const projects = [
     },
     {
         title: "SurePlay",
-        link: 'http://sure-play-jet.vercel.app/',
+        link: "http://sure-play-jet.vercel.app/",
         description: "A betting platform for player to player betting, featuring real-time odds and secure transactions.",
         stack: ["React.js", "Express.js", "MongoDB"],
         year: "2025"
     },
     {
         title: "Gistoria",
-        link: 'https://gistoria.link',
+        link: "https://gistoria.link",
         description: "A blog platform for sharing and discovering stories.",
         stack: ["React", "Express.js", "MongoDB"],
         year: "2024"
@@ -49,7 +56,7 @@ const projects = [
         title: "Igamia",
         link: null,
         description: "Livestreaming, gaming, and coin-mining platform. Collaborated on backend using Nest.js.",
-        stack: ["Nest.js", "MogngoDB"],
+        stack: ["Nest.js", "MongoDB"],
         year: "2025"
     },
 ];
