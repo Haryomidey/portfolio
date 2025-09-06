@@ -4,6 +4,20 @@ import SectionHeading from "./SectionHeading";
 
 const projects = [
     {
+        title: "Lovely Invite",
+        link: "https://lovelyinvite.netlify.app/",
+        description: "Lovely Invite is a beautifully designed, interactive wedding invitation website crafted to provide couples with a personalized and memorable online invitation experience.",
+        stack: ["React", "Vite", "TailwindCSS", "Express"],
+        year: "2025"
+    },
+    {
+        title: "Anita Store",
+        link: "https://anita-store.vercel.app/",
+        description: "Anita Store is a modern e-commerce website built to showcase and sell branded merchandise, including t-shirts, hoodies, and accessories.",
+        stack: ["React", "Vite", "TailwindCSS", "Express"],
+        year: "2025"
+    },
+    {
         title: "React Typeflux",
         link: "https://www.npmjs.com/package/react-typeflux",
         description: "A lightweight rich text editor and viewer for React, published as an npm package. Built with Vite, TailwindCSS, and React.",
